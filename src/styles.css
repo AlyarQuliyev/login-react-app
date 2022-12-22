@@ -1,0 +1,53 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .form-input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+  }
+  
+  input,
+  label {
+    display: block;
+  }
+  
+  .btn {
+    background-color: cadetblue;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: turquoise;
+  }
+  
+  .errorMsg {
+    color: red;
+    border: 1px solid orangered;
+    padding: 5px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
